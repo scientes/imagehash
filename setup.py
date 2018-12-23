@@ -25,7 +25,7 @@ setup(
         "six",
         "numpy",
         "scipy",       # for phash
-        "pillow",      # or PIL
+        "pillow-simd",      # or PIL
         "PyWavelets",  # for whash
     ],
     test_suite='imagehash.tests'
